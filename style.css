@@ -26,3 +26,19 @@ nav{
     display:flex;
     align-items:center;
 }
+
+.projectbox{
+    padding:18px;
+    border-radius:14px;
+    border:1px solid #e5e5e5;
+}
+
+.projectbox h3{
+    margin-top:0;
+}
+
+.projectdesc{
+    font-size:15px;
+    line-height:1.5;
+}
+
