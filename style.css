@@ -29,6 +29,16 @@ nav a{
     border-radius:4px;
 }
 
+.navbg {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    width: min(100%, 699px);
+    height: 50px;
+    background-color: #FFFBFB;
+    border-radius: 0 0 50px 50px;
+    z-index: 9;
+}
 
 /* section */
 
