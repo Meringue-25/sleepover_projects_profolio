@@ -1,32 +1,81 @@
 body{
-    background:#ffecf5;
-    color:#7c7c7c;
+    background:#f6f7fb;
+    color:#111;
     margin:0;
     padding:30px;
-    font-size: 30px;
-    font-family:"Itim", sans-serif;
+    font-family:"Gaegu", sans-serif;
 }
 
-.description{
-    margin-top: -40px;
-    flex: 1;
-    min-width: 0;
+section{
+    max-width:1000px;
+    margin:60px auto;
+    padding:30px;
+    border-radius:22px;
 }
+
+
+
+/* navbar */
 
 nav{
     text-align:center;
-    padding: 20px;
 }
 
+nav a{
+    margin:0 25px;
+    text-decoration:none;
+    color:inherit;
+    padding:5px 10px;
+    border-radius:4px;
+}
+
+
+/* section */
+
 .idk{
+    display:flex;
+    flex-wrap:nowrap;
+    align-items:center;
     justify-content:space-between;
     max-width:1000px;
     margin:80px auto;
     gap:30px;
-    display:flex;
-    align-items:center;
 }
 
+.description{
+    margin-top:-40px;
+    flex:1;
+    min-width:0;
+}
+
+
+.description h1{
+    font-size:64px;
+    margin-bottom:10px;
+}
+
+.description p{
+    font-size:18px;
+}
+
+
+.projects-box{
+    margin:40px auto;
+    height:500px;
+    overflow-y:auto;
+}
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+/* projects */
+
+.center{ 
+    text-align:center; 
+}
 .projectbox{
     padding:18px;
     border-radius:14px;
@@ -41,4 +90,3 @@ nav{
     font-size:15px;
     line-height:1.5;
 }
-
