@@ -105,3 +105,18 @@ nav {
     font-size:15px;
     line-height:1.5;
 }
+
+/*photos*/
+.photos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.photos>img {
+    width: 100%;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    border-radius: 20px;
+    align-items: center;
+}
