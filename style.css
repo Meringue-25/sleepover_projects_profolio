@@ -120,12 +120,13 @@ nav {
     border-radius: 20px;
     align-items: center;
 
-    transition: scale 0.1s ease-in-out;
+    transition: all 0.1s cubic-bezier(0.22, 1, 0.36, 1);
     &:nth-child(even){
         transform: translate(0,50px);
     }
 
     &:hover{
         scale: 1.1;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     }
 }
