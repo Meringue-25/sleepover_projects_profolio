@@ -110,7 +110,7 @@ nav {
 .photos{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+    gap: 35px;
 }
 
 .photos>img {
@@ -119,4 +119,13 @@ nav {
     object-fit: cover;
     border-radius: 20px;
     align-items: center;
+
+    transition: scale 0.1s ease-in-out;
+    &:nth-child(even){
+        transform: translate(0,50px);
+    }
+
+    &:hover{
+        scale: 1.1;
+    }
 }
