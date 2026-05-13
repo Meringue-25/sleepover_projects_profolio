@@ -17,28 +17,32 @@ section{
 
 /* navbar */
 
-nav{
-    text-align:center;
-}
-
-nav a{
-    margin:0 25px;
-    text-decoration:none;
-    color:inherit;
-    padding:5px 10px;
-    border-radius:4px;
-}
-
-.navbg {
+nav {
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .navbg {
     position: fixed;
     top: 0;
     left: 25%;
     width: min(100%, 699px);
-    height: 50px;
-    background-color: #FFFBFB;
+  
+    background-color: #e0e3fd;
     border-radius: 0 0 50px 50px;
     z-index: 9;
-}
+  }
 
 /* section */
 
@@ -85,6 +89,7 @@ nav a{
 
 .center{ 
     text-align:center; 
+    padding-top: 30px;
 }
 .projectbox{
     padding:18px;
