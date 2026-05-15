@@ -9,7 +9,8 @@ My friend was like oh maybe you should make a profolio,
 and so I did. I spent around the first hour debating on the 
 font of this website. I had no idea what I wanted it to look like 
 as well so I spent the first few hours playing around on how it looks..
-I really didn't like this project because I was so undecisive.
+I really didn't like this project because I was so undecisive. The only motivation that kept me going was the fact that I was going to make a cool
+cursor effect. 
 
 # Challenges/Lessons Learned 𐔌՞. .՞𐦯
 Figure out how you want it to look before you start coding. Be less 

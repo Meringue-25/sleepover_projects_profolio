@@ -130,3 +130,29 @@ nav {
         box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     }
 }
+
+:root {
+    --star-color: #ecdb5f;
+    --star-size: 15px;
+  }
+  .star {
+    width: var(--star-size);
+    height: var(--star-size);
+    color: var(--star-color);
+    fill: var(--star-color);
+    position: absolute;
+
+    animation: fade 800ms ease forwards;
+  }
+
+  @keyframes fade {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
