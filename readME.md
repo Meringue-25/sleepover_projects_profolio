@@ -22,7 +22,7 @@ waste my time. sigh...
 
 # How I made this project
 
-I made this project with html and css, I really wanted to use tailwind
-as I kept doing this and I regretted not doing it from the start, but 
+I made this project with html, javascript, and css, I really wanted to use tailwind
+and react as I kept doing this and I regretted not doing it from the start, but 
 by the time I realized I should've, it was already too late. Sunk cost 
 fallacy or smth like that...
